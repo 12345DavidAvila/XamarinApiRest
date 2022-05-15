@@ -1,0 +1,1133 @@
+<resources>
+	<string name="app_name">Inveligent.Wms.Movil</string>
+	<string name="modulo_login_name"></string>
+	<string name="modulo_principal_name">Inveligent - WMS</string>
+	<string name="modulo_inventario_name">Inventario</string>
+	<string name="modulo_inventario_grupocontrol">Grupos de Control</string>
+	<string name="modulo_movimiento">Movimiento</string>
+	<string name="modulo_armado">Armado</string>
+	<string name="modulo_etiquetado">Etiquetado</string>
+	<string name="modulo_recepcion">Recepción</string>
+	<string name="modulo_reporteria">Reportería</string>
+	<string name="modulo_comun_coordenada">Listado Ubicaciones</string>
+
+	<string name="modulo_inventario_conteo">Conteo</string>
+	<string name="navigation_drawer_open">Open navigation drawer</string>
+	<string name="navigation_drawer_close">Close navigation drawer</string>
+	<string name="modulo_picking_listaplanificacion">Lista Planificación</string>
+	<string name="modulo_carga_listaClientes">Lista Clientes</string>
+	<string name="modulo_carga_listaConsolidados">Lista Consolidados</string>
+	<string name="modulo_picking_registro">Picking</string>
+	<string name="modulo_carga_registro">Carga Camión</string>
+	<string name="modulo_picking_informacion">Picking Información</string>
+	<string name="modulo_carga_informacion">Carga Información</string>
+	<string name="modulo_etiquetado_reimpresionContenedor">Reimpresión Contenedores</string>
+
+	<string name="modulo_armado_pallet">Armado de Pallets</string>
+	<string name="modulo_armado_contenedor">Armado de Contenedores</string>
+	<string name="modulo_armado_informacion">Armado Información</string>
+
+	<!-- Menu Comun -->
+	<string name="comun_menu_guardar">Guardar</string>
+
+	<!-- Confirmacion Dialogo -->
+	<string name="comun_code_dialog_confirm_title">Confirmar</string>
+	<string name="comun_code_dialog_confirm_button_positive">SI</string>
+	<string name="comun_code_dialog_confirm_button_negative">NO</string>
+
+	<string name="comun_code_dialog_confirm_button_ok">OK</string>
+	<!--    Code Behind -->
+	<string name="comun_code_registro_correcto">Registro correcto</string>
+	<string name="comun_code_registro_incorrecto">Problemas al registrar</string>
+	<string name="comun_code_guardar_correcto">Guardado correctamente</string>
+	<string name="comun_code_eliminado_correcto">Eliminado correctamente</string>
+	<string name="comun_code_guardar_incorrecto">Error al guardar</string>
+	<string name="comun_code_eliminar_incorrecto">Error al eliminar</string>
+	<string name="comun_code_buscar_incorrecto">Error al buscar</string>
+	<string name="comun_code_dialog_cantidad_mayor_cero">Cantidad debe ser mayor a 0 </string>
+	<string name="comun_code_dialog_cantidad_incorrecta">Cantidad incorrecta </string>
+	<string name="comun_code_dialog_cantidad_mayor_permitido">Cantidad mayor a lo permitido </string>
+	<string name="comun_code_dialog_decimales_longitud">La longitud de decimales permitido es: </string>
+	<string name="comun_code_dialog_cantidad_menor_requerido">Cantidad menor a lo requerido </string>
+	<string name="comun_code_producto_no_pertenece_orden">Producto no pertenece a la orden</string>
+	<string name="comun_code_producto_no_existe">Producto no existe</string>
+	<string name="comun_code_producto_incorrecto">Producto incorrecto</string>
+	<string name="comun_code_producto_maneja_serie">Producto maneja serie</string>
+	<string name="comun_code_sin_unidad">No existen Novedades</string>
+	<string name="comun_code_sin_areafamilia">Falta la relación area familia</string>
+	<string name="comun_code_dialog_message_producto_caducado">Producto caducado</string>
+	<string name="comun_code_fechaE_mayor">Fecha Elaboración mayor a la fecha actual</string>
+	<string name="comun_code_lote_obligatorio">El Lote es obligatorio</string>
+	<string name="comun_code_ingresar_lote">Debe ingresar un lote</string>
+	<string name="comun_code_lote_no_existe">Lote no existe</string>
+	<string name="comun_code_lote_no_generar">No se permite generar nuevos lotes</string>
+	<string name="comun_code_lote_incorrecto">Lote incorrecto</string>
+	<string name="comun_code_lote_existente">Lote existente</string>
+	<string name="comun_code_esTransito">Tránsito</string>
+	<string name="comun_code_esFinal">Final</string>
+	<string name="comun_code_ninguna">NINGUNA</string>
+	<string name="comun_code_ubicacion_correctamente">Actualizada ubicación correctamente</string>
+	<string name="comun_code_ubicacion_noActualizada">Ubicación no actualizada</string>
+
+	<string name="comun_code_error_noExisteUbicacionSugerida">No existe ubicación(s) sugerida(s)</string>
+	<string name="comun_code_ubicacion_noExistente">Ubicación no existente</string>
+	<string name="comun_code_ubicacion_incorrecta">Ubicación incorrecta</string>
+	<string name="comun_code_ubicacion_no_permitida">Ubicación no permitida: </string>
+	<string name="comun_code_contenedor_incorrecto">Contenedor incorrecto</string>
+	<string name="comun_code_contenedor_yaRegistrado">Contenedor ya registrado</string>
+	<string name="comun_code_formato_contenedor_incorrecto">Formato contenedor incorrecto</string>
+	<string name="comun_code_dato_obligatorio">Dato obligatorio</string>
+	<string name="comun_code_validar_ubicacion">Validar ubicación</string>
+	<string name="comun_code_espaciado">                  </string>
+	<string name="comun_code_impresion_noRealizada">Impresión no realizada</string>
+	<string name="comun_code_impresion_realizada">Impresión realizada correctamente</string>
+	<string name="comun_code_impresion">Impresion</string>
+	<string name="comun_code_total_items">No.items:</string>
+
+
+	<!-- CODE COMUN -->
+	<string name="comun_code_error_conexion">Error de Conexión</string>
+	<string name="comun_code_error_conexion_impresora">Error de conexión con la impresora</string>
+	<string name="comun_code_imprimiendo_contenedores">Imprimiendo contenedores</string>
+	<!--<string name="comun_code_ingreso_mediante_lectura">Ingreso mediante captura de barras.</string>-->
+	<string name="comun_code_buscando_codigo_alterno">Buscando Codigo Alterno</string>
+	<string name="comun_code_cargando_prefijo_etiqueta">Cargando Prefijos Etiquetas</string>
+	<string name="comun_code_cargando_productos">Cargando Productos</string>
+	<string name="comun_code_cargando_tipo_documentos">Cargando Tipo de documentos</string>
+	<string name="comun_code_buscando_coordenada">Buscando Coordenada</string>
+	<string name="comun_code_ubicacion_varios_productos">Ubicación permite varios productos</string>
+	<string name="comun_no_existe_registros">No exite registros</string>
+	<string name="comun_code_buscando_secuencial_etiqueta">Buscando contenedor</string>
+	<string name="comun_code_buscando_documentos">Cargando Documentos</string>
+	<string name="comun_code_cargando_producto_unidad">Cargando Unidad Medida</string>
+	<string name="comun_code_cargando_ubicacion_sugerida">Cargando Ubicaciones Sugeridas</string>
+	<string name="comun_code_buscando_lote">Buscando Lote</string>
+	<string name="comun_code_cargando_coordenadas">Cargando Ubicaciones</string>
+	<string name="comun_code_header_tv_usuario">Usuario: </string>
+	<string name="comun_code_header_tv_documento">Documento:</string>
+	<string name="comun_code_header_tv_consolidado">Consolidado: </string>
+	<string name="comun_code_dialog_seleccionar_impresora">Debe seleccionar una impresora</string>
+
+	<string name="comun_code_dialog_numero_copias">Ingrese número de copias</string>
+	<string-array name="array_unidades">
+		<item>UND</item>
+	</string-array>
+	<string-array name="array_novedades">
+		<item>NINGUNA</item>
+	</string-array>
+	<string name="stop_timestamp_service_button_text">Stop Service</string>
+	<string name="restart_timestamp_service_button_text"> Start Service</string>
+	<string name="service_started">The service is started.</string>
+	<string name="app_description">This app is a demonstration of a started service in Xamarin.Android. When started the service will dump messages via Android.Util.Log every 5 seconds. </string>
+	<string name="notification_text">The started service is running.</string>
+	<string name="mensaje_permiso_escritura_aceptado">Permiso Escritura Aceptado</string>
+	<string name="mensaje_permiso_escritura_negado">Necesita Permiso Escritura</string>
+	<string name="mensaje_permiso_necesarios">Conceder los permisos de la aplicación.</string>
+	<!--<string name="comun_code_error">Error en la aplicación.</string>-->
+	<string name="comun_code_VER">DETALLE</string>
+	<string name="comun_code_buscando_tipos_contenedores">Buscando tipos contenedores</string>
+	<string name="comun_code_numero_items">Items: </string>
+	<string name="comun_tv_numero_copias">#copias:</string>
+	<string name="comun_producto_hind_busqueda">Búsqueda Producto</string>
+	<string name="comun_registro_cantidad_convertido">V. Conv.</string>
+	<string name="comun_registro_unidad">UM</string>
+	<string name="comun_registro_unidadMedida">U. Medida</string>
+	<string name="comun_registro_vacio">Vacío</string>
+	<string name="comun_registro_lleno">Lleno</string>
+
+	<!-- TITULOS MENU OPCIONES -->
+	<string name="titulo_menu_ubicacion_producto">Ubicaciones por Producto</string>
+	<string name="titulo_menu_producto_ubicacion">Productos por Ubicación</string>
+	<string name="titulo_menu_reversa">Reversa</string>
+	<string name="titulo_menu_detalle_contenedor">Detalle Contenedor</string>
+	<string name="titulo_menu_principal">Menú Principal</string>
+	<string name="titulo_menu_reversar">Reversar</string>
+	<string name="titulo_menu_movimientos_despacho">Movimientos despacho</string>
+	<string name="titulo_menu_imprimir_contenedores">Imprimir contenedores</string>
+	<string name="titulo_menu_cambio_impresora">Cambio impresora</string>
+	<string name="titulo_menu_generacion_prebulto">Generación pre contenedor</string>
+	<string name="titulo_menu_cerrar_bultos">Cerrar contenedores</string>
+	<string name="titulo_menu_agregar_camion">Agregar camión</string>
+	<string name="header_picking">Picking</string>
+	<string name="header_carga">Carga Camión</string>
+
+	<!-- prompt -->
+	<string name="prompt_spn_etiqueta">Seleccione Tipo Etiqueta</string>
+	<string name="prompt_spn_impresora">Seleccione Tipo Impresora</string>
+	<string name="prompt_spn_area">Seleccione Área</string>
+	<string name="prompt_spn_tipoDocumento">Seleccione Tipo Documento</string>
+
+
+	<!-- Pantalla Login -->
+	<string name="login_menu_config">Configuración</string>
+	<!--    TextView -->
+	<string name="login_tv_usuario">Usuario</string>
+	<string name="login_prompt_spn_usuario">Seleccione Usuario</string>
+	<string name="login_tv_clave">Clave</string>
+	<string name="login_tv_empresa">Empresa</string>
+	<string name="login_prompt_spn_empresa">Seleccione Empresa</string>
+	<string name="login_tv_bodega">Bodega</string>
+	<string name="login_prompt_spn_bodega">Seleccione Bodega</string>
+	<string name="login_tv_dispositivo">Dispositivo</string>
+	<string name="login_prompt_spn_dispositivo">Seleccione Dispositivo</string>
+	<!--    Button -->
+	<string name="login_btn_entrar">Entrar</string>
+	<string name="login_btn_salir">Entrar</string>
+	<!--    Code Behind -->
+	<string name="login_code_usuario_vacio">Usuario Requerido</string>
+	<string name="login_code_clave_vacio">Clave Requerida</string>
+	<string name="login_code_error_credenciales">Crendenciales Incorrectas</string>
+	<string name="login_code_error_version">Versión Obsoleta</string>
+	<string name="login_code_error_licencia">Equipo no registrado</string>
+	<string name="login_code_error_equipo">Dispostivo Incorrecto</string>
+	<string name="login_code_sin_empresas">No existen Empresas</string>
+	<string name="login_code_sin_bodegas">No existen Bodegas</string>
+	<string name="login_code_sin_dispositivos">No existen Dispositivos</string>
+	<string name="login_code_sin_usuarios">No existen Usuarios</string>
+	<string name="login_code_sin_parametrizaciones">No existen Parametrizaciones</string>
+	<string name="login_code_sin_roles">No existen Roles</string>
+	<string name="login_code_sin_longitud_pallet">No se cargó Longitud de Pallet</string>
+	<string name="login_code_sin_longitud_ubicacion">No se cargó Longitud de Ubicación</string>
+	<string name="login_code_dialog_title">Atención</string>
+	<string name="login_code_usuario_logueado">Usuario logueado en el equipo </string>
+	<string name="login_code_usuario_logueado_no_continuar">El Usuario no puede loguearse en mas de 1 equipo </string>
+	<string name="login_code_cargando_empresas">Cargando Empresas</string>
+	<string name="login_code_cargando_bodegas">Cargando Bodegas</string>
+	<string name="login_code_cargando_dispositivos">Cargando Dispositivos</string>
+	<string name="login_code_cargando_usuarios">Cargando Usuarios</string>
+	<string name="login_code_cargando_parametrizaciones">Cargando Parametrizaciones</string>
+	<string name="login_code_cargando_roles">Cargando Menu Rol</string>
+	<string name="login_code_verificando_version">Verificando Versión Aplicativo</string>
+	<string name="login_code_verificando_licencia">Verificando Licencia</string>
+	<string name="login_code_verificando_pallet">Verificando Pallet</string>
+	<string name="login_code_verificando_coordenada">Verificando Ubicación</string>
+	<string name="login_code_verificando_usuario">Verificando Credenciales</string>
+	<string name="login_code_seguimiento_usuario_buscar">Buscando Seguimiento Usuario</string>
+	<string name="login_code_seguimiento_usuario_crearactualizar">Actualizando Seguimiento Usuario</string>
+
+	<string name="login_code_seguimiento_documento_crearactualizar">Actualizando Seguimiento Documento</string>
+	<string name="login_code_dialogo_config_titulo">Ingrese Contraseña de Administrador</string>
+	<string name="login_code_dialogo_config_tv_contrasenia">Contraseña</string>
+	<string name="login_code_dialogo_config_btn_confirmar">Confirmar</string>
+	<string name="login_code_dialogo_config_btn_cancelar">Cancelar</string>
+
+	<!-- Pantalla Login //////////////////////////////////////////////////////////////////////////////////////////////-->
+
+	<!-- Pantalla Configuraciones -->
+	<!--    TextView -->
+	<string name="config_tv_titulo">Configuraciones</string>
+	<string name="config_tv_api">API Url Base:</string>
+	<string name="config_tv_apikpi">API KPI Url Base:</string>
+	<!-- Pantalla Principal -->
+	<!--    TextView -->
+	<string name="principal_tv_titulo">Principal</string>
+	<!--    Button -->
+	<string name="principal_btn_etiquetado">Etiquetado [1]</string>
+	<string name="principal_btn_recepcion">Recepción [2]</string>
+	<string name="principal_btn_movimientos">Movimientos [3]</string>
+	<string name="principal_btn_picking">Picking [4]</string>
+	<string name="principal_btn_armado">Armado [5]</string>
+	<string name="principal_btn_carga_camion">Carga Camión [6]</string>
+	<string name="principal_btn_toma_inventario">Inventario [7]</string>
+	<string name="principal_btn_reporteria">Reporteria [8]</string>
+	<string name="principal_btn_registro">Registro [9]</string>
+	<!--    Code Behind -->
+	<string name="principal_code_sesion_usuario">Usuario: </string>
+	<string name="principal_code_sesion_bodega">Bodega: </string>
+	<!-- Pantalla Principal ////////////////////////////////////////////////////////// -->
+
+	<!-- Pantalla Grupos de Control -->
+	<!--    TextView -->
+	<string name="grupocontrol_tv_codigo">#</string>
+	<string name="grupocontrol_tv_descripcion">Descripción</string>
+	<string name="grupocontrol_tv_tipo">Tipo</string>
+	<string name="grupocontrol_tv_proceso">Proceso</string>
+	<string name="grupocontrol_hind_busqueda">Buscar Grupo Control</string>
+	<!--    Code Behind -->
+	<string name="grupocontrol_code_cargando_grupos">Cargando Grupos de Control</string>
+	<string name="grupocontrol_code_verficando_grupo">Verificando Grupo de Control</string>
+	<string name="grupocontrol_code_dialog_message">Grupo de Control ya Atendido, Continuar? </string>
+
+	<!-- Pantalla Inventario -->
+	<!--    TextView -->
+	<string name="inventario_conteo_tv_origen">Origen</string>
+	<string name="inventario_conteo_tv_producto">Producto</string>
+	<string name="inventario_conteo_tv_lote">Lote</string>
+	<string name="inventario_conteo_tv_elaboracion">F.Elab</string>
+	<string name="inventario_conteo_tv_caducidad">F.Cad</string>
+	<string name="inventario_conteo_tv_unidad">Und</string>
+	<string name="inventario_conteo_tv_factor">Factor</string>
+	<string name="inventario_conteo_tv_cantidad">Cant.</string>
+	<string name="inventario_conteo_tv_contado">Cont.</string>
+	<string name="inventario_conteo_tv_novedad">Nov.</string>
+
+
+
+	<string name="inventario_estadistica_titulo">Estadística</string>
+	<string name="inventario_estadistica_Grupos">Grupo Control:</string>
+	<string name="inventario_estadistica_Fecha_Inicio">Fecha Inicio:</string>
+	<string name="inventario_estadistica_Fecha_Fin">Fecha Fin:</string>
+	<string name="inventario_estadistica_Dias">Días</string>
+	<string name="inventario_estadistica_Horas">Horas</string>
+	<string name="inventario_estadistica_Cantidad">Cantidad</string>
+	<string name="inventario_estadistica_boton_cerrar">Cerrar</string>
+
+	<!--    Code Behind -->
+	<string name="inventario_code_header_tv_grupocontrol">Grupo: </string>
+	<string name="inventario_code_dialog_message_regresar_grupo">Regresar a la pantalla de Grupos de Control ? </string>
+
+
+	<string name="inventario_code_confirmacion_finalizar_conteo">Desea continuar la finalización del grupo de control:  </string>
+	<string name="inventario_code_pendientes_finalizar_conteo">El grupo de control tiene tareas pendientes :  </string>
+	<string name="inventario_code_dialog_message_finalizar_conteo">Finalizar el Conteo Actual ? </string>
+	<string name="inventario_code_dialog_message_regresar_principal">Regresar al Menu Principal ?</string>
+	<string name="inventario_code_cargando_sugerencia_conteo">Cargando Sugerencia Conteo</string>
+	<string name="inventario_code_verificar_stock_no_contado">Verificando inventario no contado</string>
+	<string name="inventario_code_cargando_novedad_conteo">Cargando Novedades</string>
+	<string name="inventario_code_sin_novedad">No existen Novedades</string>
+	<string name="inventario_code_cargando_fecha_servidor">Cargando Fecha Servidor</string>
+	<string name="inventario_code_conteo_anterior_vacio">Conteo anterior vacío</string>
+	<string name="inventario_code_producto_no_considerado">Producto no considerado para conteo</string>
+	<string name="inventario_code_buscando_producto_grupo_control">Buscando Producto en Grupo Control</string>
+	<string name="inventario_code_buscando_producto_contado">Buscar Producto Contado</string>
+	<string name="inventario_code_verificando_area_familia">Verificando Area Familia</string>
+	<string name="inventario_code_dialog_message_producto_contado">Producto contado en la ubicación :</string>
+	<string name="inventario_code_dialog_message_registra_nuevo_lote">Lote no existe, registrar como nuevo ?</string>
+	<string name="inventario_code_no_contar_varios_productos">No se permite contar varios productos: </string>
+	<string name="inventario_code_verifcando_estado_grupo">Verificando estado de grupo de control</string>
+	<string name="inventario_code_conteo_producto">Conteo Producto</string>
+	<string name="inventario_code_conteo_ubicacion">Conteo Ubicación</string>
+	<string name="inventario_code_conteo_nivel">Conteo Nivel</string>
+	<string name="inventario_code_reconteo_producto">Reconteo Producto</string>
+	<string name="inventario_code_reconteo_ubicacion">Reconteo Ubicación</string>
+	<string name="inventario_code_reconteo_nivel">Reconteo Nivel</string>
+	<string name="inventario_code_dialog_title">Atención</string>
+	<string name="inventario_code_dialog_message">El grupo de control cambio de estado</string>
+	<string name="inventario_code_alerta_guardar_conteo">Verfique todos los datos</string>
+	<string name="inventario_code_guardando_conteo">Guardando Conteo</string>
+
+	<string name="inventario_code_finalizar_conteo_incorrecto">Error al finalizar conteo</string>
+
+	<string name="inventario_code_finalizar_conteo_correcto">Conteo finalizado correctamente</string>
+	<string name="inventario_code_dialog_message_vaciar_ubicacion">Desea vacíar ubicación : </string>
+
+	<string name="inventario_code_dialog_message_vaciar_ubicacion_producto"> y con el producto : </string>
+	<string name="inventario_code_dialog_message_vaciar_ubicacion_inicio">En WMS existen más productos en la ubicación </string>
+	<string name="inventario_code_dialog_message_vaciar_ubicacion_fin">, desea vaciar? </string>
+	<string name="inventario_code_dialog_message_no_permite_salir_sin_vaciar"> No puede salir existe mas producto en WMS. </string>
+	<string name="inventario_code_error_ubicacion_reservada_producto">Ubicación reservada por el producto </string>
+	<string name="inventario_code_dialog_message_relacion_area_familia">No existe relación de area - familia para el producto: </string>
+	<string name="inventario_code_ubicacion_no_considerado_Conteo">Ubicación no considerado para conteo</string>
+	<string name="inventario_code_verificar_ubicacion_validada">Verificando Ubicación</string>
+	<string name="inventario_code_no_permite_agregar_ubicacion">No se permite añadir ubicación diferente a las asignadas sin autorización</string>
+	<string name="inventario_code_actualiza_coordenada">Actualizando coordenada</string>
+	<string name="inventario_code_validar_ubicacion">Valide la ubicación nuevamente para registrar vacíos</string>
+	<string name="inventario_code_ubicacion_producto_contado">La ubicación y producto ha sido contado con la cantidad de: </string>
+	<string name="inventario_code_finalizar_grupo_control">Finalizando grupo de control: </string>
+	<!-- Pantalla Inventario - Coordenada -->
+
+	<string name="inventario_coordenada_hind_busqueda">Búsqueda Ubicación</string>
+	<string name="inventario_coordenada_tv_codcoordenada">CodUbicación</string>
+	<string name="inventario_coordenada_tv_ubicacion">Ubicación</string>
+	<string name="inventario_coordenada_tv_area">Area</string>
+	<string name="inventario_coordenada_tv_rack">Rack</string>
+	<string name="inventario_coordenada_tv_percha">Percha</string>
+	<string name="inventario_coordenada_tv_escuarentena">TipoCuarentena</string>
+	<string name="inventario_coordenada_pendientes">Pendientes</string>
+	<string name="inventario_coordenada_vacios">Vacíos</string>
+	<string name="inventario_coordenada_atendidos">Atendidos</string>
+	<string name="menu_registro_vacio">Registrar Vacíos</string>
+	<string name="grupocontrol_code_cargando_coordenadas">Cargando Ubicaciones</string>
+	<string name="inventario_coordenada_registrar_vacios">Vaciando las ubicaciones</string>
+	<string-array name="array_filtro_ubicacion">
+		<item>UBICACION</item>
+		<item>AREA</item>
+		<item>RACK</item>
+		<item>PERCHA</item>
+	</string-array>
+	<string name="registro_vacio_correcto">Registro Exitoso</string>
+	<string name="registro_vacio_incorrecto">Inconvenientes al vaciar ubicación(es)</string>
+	<string name="inventario_coordenada_mensaje_confirmacion_vacios">Desea Registrar Vacío las ubicaciones del listado? </string>
+
+
+	<!-- Pantalla Inventario - Producto -->
+
+
+	<string name="modulo_inventario_producto">Listado Productos</string>
+	<string name="inventario_coordenada_tv_codproducto">CodProd</string>
+	<string name="inventario_tv_codproducto1">Producto</string>
+	<string name="inventario_tv_descripcion_producto">Descripción</string>
+	<string name="inventario_tv_familia">Familia</string>
+	<string name="inventario_tv_lote">lote</string>
+	<string name="inventario_tv_fecha_caducidad">Caducidad</string>
+	<string name="inventario_tv_novedad">Novedad</string>
+	<string name="inventario_tv_serie">Serie</string>
+	<string name="inventario_tv_bodega_logica">BodLógica</string>
+	<string name="inventario_tv_cantidad">Cantidad</string>
+	<string name="inventario_producto_pendientes">Pendientes</string>
+	<string name="inventario_producto_vacios">Vacíos</string>
+	<string name="inventario_producto_atendidos">Atendidos</string>
+	<string name="grupocontrol_code_cargando_productos">Cargando Productos</string>
+	<string name="inventario_producto_total">No.items:</string>
+	<string name="inventario_producto_mensaje_confirmacion_vacios">Desea Registrar Vacío los productos del listado? </string>
+	<string-array name="array_filtro_producto">
+		<item>CODIGO PRODUCTO</item>
+		<item>DESCRIPCION PRODUCTO</item>
+		<item>CODIGO FAMILIA</item>
+		<item>CODIGO LOTE</item>
+	</string-array>
+
+
+
+
+	<!-- Pantalla Inventario - Ruta -->
+
+	<string name="modulo_inventario_ruta">Listado Ruta Sugerida</string>
+	<string name="inventario_ruta_busqueda">Búsqueda Producto/Ubicación/Lote</string>
+	<string name="inventario_ruta_total">No.items:</string>
+	<string name="inventario_ruta_tv_producto">Cod. Ubicación</string>
+	<string name="inventario_ruta_tv_codigo_coordenada"></string>
+	<string name="inventario_ruta_tv_descripcion">Descripción</string>
+	<string name="inventario_ruta_tv_ubicacion">Ubicación</string>
+
+	<!-- Pantalla Inventario - Reporte -->
+
+	<string name="modulo_inventario_reporte">Reporte Inventario</string>
+	<string name="inventario_reporte_area">Área</string>
+	<string name="inventario_reporte_rack">Rack</string>
+	<string name="inventario_reporte_percha">Percha</string>
+	<string name="inventario_reporte_nivel">Nivel</string>
+	<string name="inventario_reporte_grupo">GrupoControl:</string>
+	<string name="inventario_reporte_total">No.items:</string>
+	<string-array name="array_filtro_reporte">
+		<item>UBICACION</item>
+		<item>CODIGO PRODUCTO</item>
+		<item>CODIGO LOTE</item>
+	</string-array>
+	<!-- <item>CODIGO FAMILIA</item>  NO EXISTE COLUMNA EN EL SP POR ESO NO SE PUEDE BUSCAR POR CODIGO FAMILIA-->
+
+
+	<string name="inventario_reporte_tv_ubicacion">Ubicación</string>
+	<string name="inventario_reporte_tv_producto">Producto</string>
+	<string name="inventario_reporte_tv_cantidad">Cantidad</string>
+	<string name="inventario_reporte_tv_lote">Lote</string>
+	<string name="inventario_reporte_tv_descripcion">Descripción</string>
+	<string name="inventario_reporte_tv_serie">Serie</string>
+	<string name="inventario_reporte_tv_novedad">Novedad</string>
+	<string name="inventario_reporte_tv_bodega_logica">Bod. Lógica</string>
+	<string name="inventario_cargando_reporte">Cargando Reporteria</string>
+	<string name="abc_action_bar_home_description">Desrcripción grupo control </string>
+
+	<string name="inventario_reporte_tv_codigo_area">Área </string>
+	<string name="inventario_reporte_tv_codigo_rack">Rack </string>
+	<string name="inventario_reporte_tv_codigo_percha">Percha </string>
+	<string name="inventario_reporte_tv_codigo_nivel">Nivel </string>
+
+
+
+	<!-- CODE COMUN -->
+	<!--<string name="comun_code_error_conexion">Error de Conexión</string>-->
+	<string name="comun_code_ingreso_mediante_lectura">Ingreso mediante captura de barras.</string>
+	<!--<string name="comun_code_buscando_codigo_alterno">Buscando Codigo Alterno</string>-->
+	<!--<string name="comun_code_cargando_prefijo_etiqueta">Cargando Prefijos Etiquetas</string>-->
+	<!--<string name="comun_code_cargando_productos">Cargando Productos</string>-->
+	<!--<string name="comun_code_cargando_tipo_documentos">Cargando Tipo de documentos</string>-->
+	<!--<string name="comun_code_buscando_coordenada">Buscando Coordenada</string>-->
+	<string name="comun_code_ubicacion_no_conteo">Ubicación no considerada para conteo: </string>
+	<!--<string name="comun_code_ubicacion_varios_productos">Ubicación permite varios productos</string>-->
+	<string name="mensaje_no_existe_registros">No exite registros</string>
+	<!--<string name="comun_code_buscando_documentos">Cargando Documentos</string>-->
+	<string name="comun_code_error_producto_necesario">Necesita escoger un producto.</string>
+	<string name="comun_code_cargando_areasUsuario">Cargando Áreas Usuario</string>
+	<string name="comun_code_cargando_contenedores">Cargando contenedores</string>
+	<!--<string-array name="array_unidades">
+		<item>UND</item>
+	</string-array>-->
+	<!--<string-array name="array_novedades">
+		<item>NINGUNA</item>
+	</string-array>-->
+	<!--<string name="stop_timestamp_service_button_text">Stop Service</string>-->
+	<!--<string name="restart_timestamp_service_button_text"> Start Service</string>-->
+	<!--<string name="service_started">The service is started.</string>-->
+	<!--<string name="app_description">This app is a demonstration of a started service in Xamarin.Android. When started the service will dump messages via Android.Util.Log every 5 seconds. </string>-->
+	<!--<string name="notification_text">The started service is running.</string>-->
+	<!--<string name="mensaje_permiso_escritura_aceptado">Permiso Escritura Aceptado</string>-->
+	<!--<string name="mensaje_permiso_escritura_negado">Necesita Permiso Escritura</string>-->
+	<!--<string name="mensaje_permiso_necesarios">Conceder los permisos de la aplicación.</string>-->
+	<string name="comun_code_error">Error en la aplicación.</string>
+	<!--<string name="comun_code_VER">DETALLE</string>-->
+
+	<!-- Pantalla Busqueda Picking - -->
+	<!--    CheckBox -->
+	<!--<string name="pic_busqueda_chb_fechaEntrega">Fecha Entrega</string>-->
+
+	<!--    TextView -->
+	<string name="picking_busqueda_tv_tipoDocumento">Tipo Documento</string>
+	<string name="picking_busqueda_tv_cliente">Cliente</string>
+	<string name="picking_busqueda_tv_consolidado">Cons.</string>
+	<string name="picking_busqueda_tv_documento">Documento</string>
+	<string name="picking_busqueda_tv_impresora">Impresora</string>
+	<string name="picking_busqueda_tv_area">Área</string>
+	<string name="picking_busqueda_tv_atendiendo">Atendiendo</string>
+	<string name="picking_hind_busqueda">Buscar</string>
+
+
+	<!--    RadioButton -->
+	<string name="picking_busqueda_rb_picking">Picking</string>
+	<string name="picking_busqueda_rb_pickPack">Pick and Pack</string>
+
+	<!--    Code Behind -->
+	<string name="picking_code_cargando_tipo_documento">Cargando Tipos Documento</string>
+	<string name="picking_code_cargando_cliente">Cargando Clientes</string>
+	<string name="picking_code_cargando_consolidados">Cargando Consolidados</string>
+	<string name="picking_code_cargando_impresoras">Cargando Impresoras</string>
+	<string name="picking_code_cargando_areasUsuario">Cargando Áreas Usuario</string>
+	<string name="picking_code_cargando_documentos">Cargando Documentos</string>
+	<string name="picking_code_cargando_usuarioAtendiendo">Cargando usuario atendiendo</string>
+	<string name="picking_code_noexiste_consolidado">No existe consolidado</string>
+	<string name="picking_code_consolidado_anterior">Existe un consolidado anterior aún no terminado. Desea continuar?</string>
+	<string name="picking_code_cargando_ruta">Cargando ruta picking</string>
+	<string name="picking_code_cargando_tipo_picking">Cargando tipo de picking</string>
+	<string name="picking_cargando_tipos_documento">Cargando tipos de documento</string>
+	<string name="picking_code_cargando_ubicacion_destino">Cargando ubicación destino</string>
+	<string name="picking_code_cargando_bahias">Cargando bahías</string>
+	<string name="picking_code_ruta_noSugerida">Ruta no sugerida. Desea continuar?</string>
+	<string name="picking_code_ruta_cambio_sugerida">Cambio ubicación sugerida. Desea continuar?</string>
+	<string name="picking_code_ruta_agregar_bahia">Se agregará una nueva bahía al consolidado. Desea continuar?</string>
+	<string name="picking_code_ruta_bahia_agregada">Bahía agregada</string>
+	<string name="picking_code_ruta_bahia_no_agregada">Bahía no agregada</string>
+	<string name="picking_code_ruta_sugerida_cambiada">Ubicación sugerida cambiada</string>
+	<string name="picking_code_producto_por_despachar">Existen productos por despachar. Desea salir?</string>
+	<string name="picking_code_cerrar_contenedores">Debe cerrar previamente todos los contenedores.</string>
+	<string name="picking_code_atendiendose_tipoPocking">Producto atendiendose en:  </string>
+	<string name="picking_code_contenedores_cerrados">Contenedores cerrados exitosamente.</string>
+	<string name="picking_code_contenedores_noExisten">No existen contenedores para cerrar.</string>
+	<string name="picking_code_imprimir_contenedor">Desea imprimir la etiqueta del contenedor. Desea continuar?</string>
+	<string name="picking_code_impresora_cambiada">Impresora cambiada.</string>
+	<string name="picking_code_saltar">El producto no será atendido. Desea continuar?</string>
+
+	<!--    Button -->
+	<string name="picking_busqueda_btn_verMas">Ver +</string>
+	<string name="carga_busqueda_btn_verMas">Ver +</string>
+	<string name="picking_busqueda_btn_buscar">Buscar</string>
+	<string name="picking_busqueda_btn_saltar">Saltar</string>
+
+
+	<!-- Informacion Dialogo -->
+	<string name="comun_code_dialog_informa_title">Información</string>
+	<string name="comun_code_dialog_informa_usuariosAtendiendo">Usuarios atendiendo: </string>
+
+
+
+	<!-- Pantalla Registro Picking - -->
+	<!--    TextView -->
+	<string name="picking_registro_origen">Origen</string>
+	<string name="picking_registro_contenedor">Contenedor</string>
+	<string name="picking_registro_lote">Lote: </string>
+	<string name="picking_registro_abreviaturaContenedor">Cont:</string>
+	<string name="picking_registro_cantidad">Cantidad</string>
+	<string name="picking_registro_destino">Destino</string>
+	<string name="picking_registro_sugerida">Sugerida</string>
+	<string name="picking_registro_consolidado">Consolidado</string>
+	<string name="picking_registro_cliente">Cliente</string>
+	<string name="picking_registro_tot_contenedor">CONTENEDOR</string>
+	<string name="picking_registro_tot_items">ITEMS</string>
+	<string name="picking_registro_tot_faltantes">FALTANTES</string>
+	<string name="picking_registro_tot_atendidos">ATENDIDOS</string>
+	<string name="picking_registro_tot_sinAtender">SIN ATENDER</string>
+	<string name="picking_registro_impresora">Impresora: </string>
+
+	<!-- Pantalla Registro Carga - -->
+	<!--    TextView -->
+	<string name="carga_registro_origen">Origen</string>
+	<string name="carga_registro_contenedor">Contenedor</string>
+	<string name="carga_registro_lote">Lote: </string>
+
+	<string name="carga_registro_prodContenedor">Contenedor: </string>
+	<string name="carga_registro_cantidad">Cantidad</string>
+	<string name="carga_registro_cantidad_convertido">Valor C.</string>
+	<string name="carga_registro_consolidado">Consolidado</string>
+	<string name="carga_registro_cliente">Cliente</string>
+	<string name="carga_registro_tot_contenedor">DETALLE</string>
+	<string name="carga_registro_tot_preparados">PREPARADOS</string>
+	<string name="carga_registro_tot_faltantes">FALTANTES</string>
+	<string name="carga_registro_tot_atendidos">CARGADOS</string>
+	<string name="carga_registro_unidad">U. medida</string>
+	<string name="carga_registro_bahia">Bahia</string>
+	<string name="carga_registro_abreviaturaContenedor">Cont:</string>
+	<string name="carga_code_saltar">El producto no será atendido. Desea continuar?</string>
+	<!--    Button -->
+
+	<!--<string name="carga_busqueda_btn_verMas">Ver +</string>-->
+
+	<!-- Informacion Dialogo -->
+	<string name="picking_code_error_contenedorNoRegistrado">Contenedor no se encuentra registrado</string>
+	<string name="picking_code_error_contenedorProductosAreas">Contenedor con productos de otra área</string>
+	<string name="picking_code_guardando_picking">Guardando Picking</string>
+	<string name="picking_code_dialog_bahias_asignadas">Bahías asignadas: </string>
+	<string name="picking_code_dialog_contenedor_ubicacion">Contenedor se encuentra en otra ubicación: </string>
+	<string name="picking_code_dialog_bahia_agregada">Bahía agregada</string>
+	<string name="picking_code_guardando_estado_contenedor">Guardando estado contenedor</string>
+	<string name="picking_code_contenedor_cerrado">Contenedor cerrado</string>
+	<string name="picking_code_error_contenedor_cerrado">Error al cerrar el contenedor</string>
+	<string name="picking_code_guardando_contenedor_impreso">Contenedor impreso</string>
+	<string name="picking_code_contenedor_impreso">Contenedor impreso</string>
+	<string name="picking_code_error_contenedor_imprimir">Error al imprimir el contenedor</string>
+
+
+	<!-- Pantalla Informacion Picking - -->
+	<!--    TextView -->
+	<string name="picking_informacion_documento">Documento</string>
+	<string name="picking_informacion_consolidado">Consolidado</string>
+	<string name="picking_informacion_tipoDocumento">Tipo Documento</string>
+	<string name="picking_informacion_cliente">Cliente</string>
+	<string name="picking_informacion_ciudad">Ciudad</string>
+	<string name="picking_informacion_obsProducto">Observación</string>
+	<string name="picking_informacion_producto">Producto</string>
+	<string name="picking_informacion_descripcion">Descripción</string>
+	<string name="picking_informacion_familia">Familia</string>
+	<!--<string name="picking_informacion_obsProducto">Observación</string>-->
+
+	<!-- Pantalla Informacion Carga - -->
+	<!--    TextView -->
+	<string name="carga_informacion_codigoCliente">Cliente</string>
+	<string name="carga_informacion_consolidado">Consolidado</string>
+	<string name="carga_informacion_nombreCliente">Nombre Cliente</string>
+	<string name="carga_informacion_ciudad">Ciudad</string>
+	<string name="carga_informacion_obsProducto">Observación</string>
+	<string name="carga_informacion_producto">Producto/Contenedor</string>
+	<string name="carga_informacion_descripcion">Descripción</string>
+	<string name="carga_informacion_familia">Familia/Tipo contenedor</string>
+	<!--<string name="carga_informacion_obsProducto">Observación</string>-->
+
+	<!--   Pantalla Principal carga de camion  -->
+	<!--    TextView -->
+	<string name="carga_busqueda_tv_transporte">Transporte</string>
+	<string name="carga_busqueda_tv_transportista">Transportista</string>
+	<string name="carga_busqueda_tv_consolidado">Consolidado</string>
+	<string name="carga_busqueda_tv_documento">Documento</string>
+	<string name="carga_busqueda_tv_impresora">Impresora</string>
+	<string name="carga_busqueda_tv_area">Área</string>
+	<string name="carga_busqueda_tv_atendiendo">Atendiendo</string>
+	<string name="carga_busqueda_tv_cliente">Cliente</string>
+	<string name="carga_hind_busqueda">Buscar</string>
+	<!--    CheckBox -->
+	<string name="pic_busqueda_chb_fechaEntrega">Fecha Entrega</string>
+
+	<!--    RadioButton -->
+	<string name="carga_busqueda_rb_pedido">Por Pedido</string>
+	<string name="carga_busqueda_rb_producto">Por producto</string>
+	<!--    Bahias -->
+	<string name="carga_busqueda_tv_bahias">Bahía: </string>
+
+	<!--    Code Behind -->
+	<string name="carga_code_cargando_tipo_documento">Cargando Tipos Documento</string>
+	<string name="carga_code_cargando_cliente">Cargando Clientes</string>
+	<string name="carga_code_cargando_transporte">Cargando Transportes</string>
+	<string name="carga_code_cargando_consolidados">Cargando Consolidados</string>
+	<string name="carga_code_cargando_impresoras">Cargando Impresoras</string>
+	<string name="carga_code_cargando_areasUsuario">Cargando Áreas Usuario</string>
+	<string name="carga_code_cargando_documentos">Cargando Documentos</string>
+	<string name="carga_code_cargando_usuarioAtendiendo">Cargando usuario atendiendo</string>
+	<string name="carga_code_noexiste_consolidado">No existe consolidado</string>
+	<string name="carga_code_consolidado_anterior">Existe un consolidado anterior aún no terminado. Desea continuar?</string>
+	<string name="carga_code_cargando_ruta">Cargando ruta Carga</string>
+	<string name="carga_code_cargando_contenedores">Cargando contenedores</string>
+	<string name="carga_cargando_tipos_documento">Cargando tipos de documento</string>
+	<string name="carga_code_cargando_ubicacion_destino"> Cargando ubicación destino </string>
+	<string name="carga_code_cargando_bahias">  Cargando bahías </string>
+	<string name="carga_code_cargando_transportista">Cargando Transportistas</string>
+	<string name="carga_code_ruta_noSugerida">Ruta no sugerida. Desea continuar?</string>
+	<string name="carga_code_ruta_cambio_sugerida">Cambio ubicación sugerida. Desea continuar?</string>
+	<string name="carga_code_ruta_agregar_bahia">Se agregará una nueva bahía al consolidado. Desea continuar?</string>
+	<string name="carga_code_ruta_bahia_agregada">Bahía agregada</string>
+	<string name="carga_code_ruta_bahia_no_agregada">Bahía no agregada</string>
+	<string name="carga_code_ruta_sugerida_cambiada">Ubicación sugerida cambiada</string>
+	<string name="carga_code_producto_por_despachar">Existen productos por despachar. Desea salir?</string>
+	<string name="carga_code_cerrar_contenedores">Debe cerrar previamente todos los contenedores.</string>
+	<string name="carga_code_atendiendose_tipoPocking">Producto atendiendose en:  </string>
+	<string name="carga_code_contenedores_cerrados">Contenedores cerrados exitosamente.</string>
+	<string name="carga_code_imprimir_contenedor">Desea imprimir la etiqueta del contenedor. Desea continuar?</string>
+	<string name="carga_code_impresora_cambiada">Impresora cambiada.</string>
+	<string name="carga_code_header_tv_usuario">Usuario: </string>
+	<string name="carga_code_dialog_message_regresar_grupo">Regresar a la pantalla de Consolidados ? </string>
+	<string name="carga_code_guardando_carga">Guardando Carga Camión</string>
+	<string name="carga_code_dialog_bahias_asignadas">Bahías asignadas: </string>
+	<!--    Button -->
+	<!--<string name="carga_busqueda_btn_verMas">Ver +</string>-->
+	<string name="carga_busqueda_btn_buscar">Buscar</string>
+	<string name="carga_busqueda_btn_saltar">Saltar</string>
+
+	<!--    Etiquetado -->
+
+	<string-array name="array_filtro_menu_etiquetado">
+		<item>IMPRIMIR</item>
+		<item>REIMPRIMIR</item>
+	</string-array>
+	<string name="principal_btn_generar_lote"> Genera Lote [1]</string>
+	<string name="principal_btn_pallet_despacho"> Pallet Despacho [2]</string>
+	<string name="principal_btn_contenedor_previo"> Contenedor Previo [3]</string>
+	<string name="principal_btn_coordenada"> Coordenada [1]</string>
+	<string name="principal_btn_producto"> Producto [2]</string>
+	<string name="principal_btn_contenedor"> Contenedor [3]</string>
+	<string name="principal_btn_pallet"> Pallet [4]</string>
+	<string name="principal_btn_lote"> Lote [5]</string>
+	<string name="etiquetado_titulo_generar_lotes">Generar Lotes</string>
+	<string name="etiquetado_titulo_reimpresion_lotes">Reimpresión de Lotes</string>
+	<string name="etiquetado_tv_numero">Número</string>
+	<string name="etiquetado_tv_proveedor">Proveedor</string>
+	<string name="etiquetado_tv_items">Items</string>
+	<string name="etiquetado_tv_lote">Lote</string>
+	<string name="etiquetado_impresion">Imprimiendo</string>
+	<string name="etiquetado_tv_codigoProducto1">Código</string>
+	<string name="etiquetado_tv_descripcionProducto">Descripción</string>
+	<string name="etiquetado_tv_fechaCaducidad">Fecha Caducidad</string>
+	<string name="etiquetado_listado_total">No.items:</string>
+	<string name="etiquetado_code_dialog_message_impresion_documento">Quiere imprimir todo el documento  </string>
+	<string name="etiquetado_code_dialog_message_impresion_con"> con </string>
+	<string name="etiquetado_code_dialog_message_impresion_productos"> productos? </string>
+	<string name="etiquetado_code_dialog_message_cargando_productos"> Cargando productos </string>
+	<string name="etiquetado_code_dialog_message_cargando_tipodoc"> Cargando tipos de documentos </string>
+
+	<string name="etiquetado_code_dialog_message_impresora_seleccionada"> Debe seleccionar una impresora </string>
+	<string-array name="array_filtro_generacion_lotes">
+		<item>Documento</item>
+		<item>Producto</item>
+	</string-array>
+
+	<string name="etiquetado_hind_busqueda">Buscar</string>
+
+	<!--    grid detalle lotes -->
+	<string name="etiquetado_tv_detalle_codigo">Código</string>
+	<string name="etiquetado_tv_detalle_descripcion">Descripción</string>
+
+	<string name="etiquetado_tv_detalleLotes_codigo">Código:</string>
+	<string name="etiquetado_tv_detalleLotes_descripcion">Descrip:</string>
+	<string name="etiquetado_tv_detalleLotes_fabricacion">F.Fab.:</string>
+	<string name="etiquetado_tv_detalleLotes_caducidad">F.Cad.:</string>
+	<string name="etiquetado_tv_detalleLotes_lote">Lote:</string>
+	<string name="etiquetado_tv_detalleLotes_unidad">Unidad:</string>
+	<string name="etiquetado_tv_detalleLotes_impre">Impre:</string>
+	<string name="etiquetado_tv_general_impre">Impre:</string>
+	<string name="etiquetado_tv_general_tipo_etiqueta">Tipo etiqueta:</string>
+	<string name="etiquetado_tv_detalleLotes_tipo">Tipo:</string>
+	<string name="etiquetado_tv_detalleLotes_loteJuliano">Lote Juliano</string>
+	<string name="etiquetado_code_guardando_lote">Guardando Lote</string>
+	<string name="etiquetado_code_listado_documentos">Cargando Documentos</string>
+
+
+	<!--   pantalla contenedor previo -->
+	<string name="etiquetado_tv_contenedorPrevio_tipo">Tipo:</string>
+	<string name="etiquetado_tv_contenedorPrevio_rInicial">R. Inicial:</string>
+	<string name="etiquetado_tv_contenedorPrevio_rFinal">R. Final:</string>
+	<string name="etiquetado_tv_contenedorPrevio_secuencial">Secuencial:</string>
+	<string name="etiquetado_tv_contenedorPrevio_contenedor">Cant. Contenedores:</string>
+	<string name="etiquetado_tv_contenedorPrevio_impresora">Impresora:</string>
+	<string name="etiquetado_code_error_tipos_contenedores">No existen tipos de contenedores</string>
+	<string name="etiquetado_code_buscando_rangos_secuenciales">Buscando rango secuenciales</string>
+	<string name="etiquetado_code_error_secuenciales">Error al cargar secuenciales</string>
+	<string name="etiquetado_code_error_actualizar_secuenciales">Error al actualizar el secuencial</string>
+	<!--<string name="etiquetado_code_error_tipos_contenedores">Impresión</string>-->
+
+	<string-array name="array_filtro_coordenadas">
+		<item>Código/Descripción</item>
+		<item>Área</item>
+		<item>Rack</item>
+		<item>Percha</item>
+	</string-array>
+
+
+
+	<string name="etiquetado_tv_coordenada_descripcion">Descripción</string>
+	<string name="etiquetado_tv_coordenada_coordenada">Coordenada</string>
+	<string name="etiquetado_tv_coordenada_area">Area</string>
+	<string name="etiquetado_tv_coordenada_rack">Rack</string>
+	<string name="etiquetado_tv_coordenada_percha">Percha</string>
+	<string name="etiquetado_tv_coordenada_bodega">Bodega</string>
+	<string name="etiquetado_tv_coordenada_tipo">Tipo</string>
+
+
+	<string-array name="array_filtro_productos">
+		<item>Producto</item>
+		<item>Familia</item>
+		<item>Documento</item>
+	</string-array>
+	<string name="etiquetado_tv_producto_Filtro">Filtro:</string>
+	<string name="etiquetado_tv_producto_tipo_documento">Tipo Doc:</string>
+
+	<string name="etiquetado_tv_producto_codigo">Código</string>
+	<string name="etiquetado_tv_producto_descripcion">Descripción</string>
+	<string name="etiquetado_tv_producto_unidad">Unidad</string>
+	<string name="etiquetado_tv_producto_alterno">Alterno</string>
+	<string name="etiquetado_tv_producto_familia">Familia</string>
+
+
+
+	<string name="etiquetado_li_tv_codigoproducto">Producto</string>
+	<string name="etiquetado_li_tv_codigoalterno">Alterno</string>
+	<string name="etiquetado_li_tv_descripcion">Descripción</string>
+	<string name="etiquetado_li_tv_unidad">Unidad</string>
+	<string name="etiquetado_li_tv_familia">Familia</string>
+
+	<string name="etiquetado_code_dialog_seleccionar_coordenada">Seleccione una ubicación</string>
+	<string name="etiquetado_code_dialog_message_pantalla_anterior">Regresar a la pantalla anterior ? </string>
+
+	<!--   pantalla reimpresion contenedor previo -->
+	<!--    TextView -->
+	<string name="recontenedor_detalle_tv_seContenedor">Contenedor</string>
+	<string name="recontenedor_detalle_tv_numDocumento">Documento</string>
+	<string name="recontenedor_detalle_tv_consolidado">Consolidado</string>
+	<string name="recontenedor_detalle_tv_cliente">Cliente</string>
+	<string name="recontenedor_detalle_tv_usuarioArmado">Usuario</string>
+	<string name="recontenedor_detalle_hind_busqueda">Buscar Contenedor</string>
+	<string name="recontenedor_detalle_tv_ciudad">Ciudad</string>
+	<string name="recontenedor_detalle_tv_direccion">Dirección</string>
+	<string name="recontenedor_detalle_contenedor">Cargando Contenedores</string>
+
+	<!--   pantalla recepcion documento -->
+	<string name="recepcion_tv_documento_tipoDocumento">Tipo documento:</string>
+	<string name="recepcion_tv_documento_area">Área:</string>
+	<string name="recepcion_tv_documento_Documento">Documento:</string>
+	<string name="recepcion_tv_documento_busqueda">Búsqueda:</string>
+	<string name="recepcion_tv_documento_FechaCreacion">Fecha creación:</string>
+
+	<string name="recepcion_busqueda_btn_buscar">Buscar</string>
+	<string name="recepcion_tv_documento_masfiltros">+ filtros</string>
+
+	<!--   pantalla recepcion detalle -->
+
+	<string name="titulo_menu_recepcion_reimpresion">Reimpresión de etiquetas</string>
+	<string name="titulo_menu_recepcion_cerrar">Cerrar documento</string>
+	<string name="titulo_menu_recepcion_cerrar_parcial">Cerrar parcial</string>
+	<string name="recepcion_detalle_tv_factura">Factura</string>
+	<string name="recepcion_detalle_tv_producto">Producto</string>
+	<string name="recepcion_detalle_tv_lote">Lote</string>
+
+	<string name="recepcion_detalle_tv_fechaCaducidad">F. Cad</string>
+	<string name="recepcion_detalle_tv_fechaElaboracion">F. Elab</string>
+	<string name="recepcion_detalle_tv_recibido">Recibido</string>
+	<string name="recepcion_detalle_tv_novedad">Novedad</string>
+	<string name="recepcion_detalle_tv_destino">Destino</string>
+	<string name="recepcion_detalle_tv_sugerencia">Sg</string>
+	<string name="recepcion_detalle_tv_daniado">Dañado</string>
+	<string name="recepcion_detalle_tv_producto_cerrado"> producto con estado cerrado</string>
+
+	<!--   pantalla recepcion documentos -->
+
+	<string name="recepcion_tv_documento_codigoDocumento">Documento</string>
+	<string name="recepcion_tv_documento_NumeroLineas">No. Líneas</string>
+	<string name="recepcion_tv_documento_FCreacion">F.Creación</string>
+	<string name="recepcion_tv_documento_Estado">Estado</string>
+	<string name="recepcion_tv_documento_Proveedor">Proveedor</string>
+	<!--   pantalla recepcion principal -->
+
+	<string name="recepcion_tv_principal_documento">No. Documento</string>
+	<string name="recepcion_tv_principal_proveedor">Proveedor</string>
+	<string name="recepcion_tv_principal_fecha">Fecha</string>
+
+
+	<string name="recepcion_tv_lv_numero">No.</string>
+	<string name="recepcion_tv_lv_codigo">Código</string>
+	<string name="recepcion_tv_lv_producto">Producto</string>
+	<string name="recepcion_tv_lv_solicitado">Sol./Rec.</string>
+	<string name="recepcion_tv_lv_estado">Estado</string>
+	<string name="recepcion_tv_lv_numero_linea">Línea</string>
+	<string name="recepcion_tv_lv_lote">Lote</string>
+	<string name="recepcion_tv_lv_observacion">Observación</string>
+	<string name="recepcion_code_guardando_recepcion">Guardando Recepción</string>
+	<string name="recepcion_code_guardando_documento_recepcion">Guardando documento recepción</string>
+	<string name="recepcion_code_documento_cerrado">Documento cerrado completamente con éxito</string>
+	<string name="recepcion_code_documento_parcial">Documento cerrado parcialmente con éxito</string>
+	<string name="recepcion_factura_obligatorio">Ingreso de factura obligatorio</string>
+
+	<!--   pantalla recepcion producto -->
+	<string name="recepcion_ubicacion_tv_codcoordenada">CodUbicación</string>
+	<string name="recepcion_ubicacion_tv_ubicacion">Ubicación</string>
+
+	<!--   pantalla recepcion ubicacion -->
+
+	<!--   pantalla recepcion principal informacion -->
+	<string name="recepcion_info_tv_lv_observacion">Obs. Doc.:</string>
+	<string name="recepcion_info_tv_lv_descripcion">Desc.:</string>
+	<string name="recepcion_info_tv_lv_familia">Familia:</string>
+	<string name="recepcion_info_tv_lv_marca">Marca:</string>
+	<string name="recepcion_info_tv_lv_observacion_detalle">Obs. Det:</string>
+	<!--   pantalla movimientos general -->
+
+	<string name="movimiento_general_tv_proceso">Proceso:</string>
+	<string name="movimiento_general_tv_origen">Origen:</string>
+	<string name="movimiento_general_tv_producto">Producto:</string>
+	<string name="movimiento_general_tv_consolidado">Cons:</string>
+	<string name="movimiento_general_tv_lote">Lote:</string>
+	<string name="movimiento_general_tv_novedad">Novedad:</string>
+	<string name="movimiento_general_tv_destino">Destino:</string>
+	<string name="movimiento_general_tv_sugerido">Sugerido:</string>
+	<string name="movimiento_general_tv_ubicado">Ubi:</string>
+	<string name="movimiento_general_tv_mover">Mover:</string>
+	<string name="movimiento_general_tv_descripcion">Descripción:</string>
+	<string name="movimiento_general_tv_familia">Familia:</string>
+	<string name="movimiento_general_tv_marca">Marca:</string>
+	<string name="movimiento_general_tv_tipo_producto">Tipo Producto:</string>
+	<string name="movimiento_general_tv_observacion">Observación:</string>
+	<string name="movimiento_titulo">Movimientos</string>
+	<string name="movimiento_libre">Libre</string>
+	<string name="movimiento_recepcion">Recepción</string>
+	<string name="movimiento_despacho">Despacho</string>
+	<!--<string name="modulo_movimiento">Movimientos</string>-->
+	<string name="movimiento_btn_recepcion">Recepción [1]</string>
+	<string name="movimiento_btn_movimientos">Movimientos [2]</string>
+	<string name="movimiento_btn_despacho">Despacho [3]</string>
+	<string name="movimiento_code_titulo">Tipo de Movimientos</string>
+	<string name="movimiento_code_titulo_recepcion"> Movimiento de Recepción</string>
+	<string name="movimiento_code_titulo_despacho">Movimiento de Despacho</string>
+	<string name="movimiento_detalle_producto_titulo">Detalle Producto</string>
+	<string name="movimiento_code_dialog_title">Atención</string>
+	<string name="movimiento_detalle_producto_boton_cerrar">Cerrar</string>
+	<string name="menu_guardar_movimiento">Guardar</string>
+	<string name="movimiento_generar_detalle_novedad">No existe detalle de producto</string>
+	<string name="movimiento_alerta_guardar">Verfique todos los datos</string>
+	<string name="movimiento_cargando_novedad_conteo">Cargando Novedades</string>
+	<string name="movimiento_cargando_producto_unidad">Cargando Unidad Medida</string>
+	<string name="movimiento_cargando_fecha_servidor">Cargando Fecha Servidor</string>
+	<string name="movimiento_coordenada_total_ubicacion">No.items:</string>
+	<string name="movimiento_sin_novedad">No existen Novedades</string>
+
+	<string name="movimiento_sin_unidad">No existen unidades</string>
+	<string name="movimiento_producto_maneja_serie">Producto Maneja Serie</string>
+	<string name="movimiento_producto_no_existe">Producto no existe</string>
+	<string name="movimiento_cargando_novedad">Cargando Novedades</string>
+	<string name="movimiento_cargando_tipo_ubicacion">Cargando Tipo Ubicaciones</string>
+	<string name="movimiento_cargando_documentos">Cargando Documentos</string>
+	<string name="movimiento_code_guardando_recepcion">Guardando Movimiento</string>
+	<string name="recepcion_code_dialog_message_pantalla_anterior">Regresar a la pantalla anterior ? </string>
+	<string-array name="movimiento_general_tipos_array">
+		<item>MovimientoLibre</item>
+		<item>TareaGenerada</item>
+		<item>Reabastecimiento</item>
+		<item>Reversion</item>
+	</string-array>
+	<string-array name="array_filtro_movimiento_coordenada">
+		<item>Código</item>
+		<item>Descripción</item>
+	</string-array>
+
+	<string name="modulo_movimiento_tarea">Listado de Tareas</string>
+	<string name="modulo_movimiento_coordenada">Listado Ubicaciones</string>
+
+	<string name="tarea_tv_codcoordenada">Ubicación</string>
+	<string name="tarea_tv_codproducto">Producto</string>
+	<string name="tarea_tv_descripcion">Descripción</string>
+	<string name="tarea_tv_lote">Lote</string>
+	<string name="tarea_tv_serie">Serie</string>
+	<string name="tarea_tv_cantidad">Cantidad</string>
+	<string name="tarea_tv_destino">Destino</string>
+	<string name="tarea_tv_pallet">Pallet</string>
+	<string name="tarea_tv_bodegalogica">B.Lógica</string>
+	<string name="tarea_tv_codigounico">Cód.Unico</string>
+	<string name="tarea_tv_bulto">Bulto</string>
+	<string name="tarea_tv_fechacaducidad">Caducidad</string>
+	<string name="tarea_tv_tienenovedad">TieneNovedad</string>
+	<string name="tarea_tv_secuencial">Secuencial</string>
+	<string name="tarea_tv_novedad">Novedad</string>
+	<string name="movimiento_tarea_total">No.items:</string>
+	<string name="movimiento_buscando_tarea">Buscando Producto/Tareas</string>
+	<string name="movimiento_buscando_sugerida">Buscando ubicación sugerida</string>
+
+	<string name="movimiento_producto_hind_busqueda">Búsqueda Producto</string>
+	<string name="movimiento_ubicacion_hind_busqueda">Búsqueda Ubicación</string>
+
+
+	<!-- Pantalla reporteria principal-->
+	<string name="reporteria_btn_ubicacionProducto">Ubicación Producto [1]</string>
+	<string name="reporteria_btn_productoUbicacion">Producto Ubicación [2]</string>
+	<string name="reporteria_btn_contenedor">Detalle Contenedor [3]</string>
+
+	<!-- Pantalla reporteria-->
+	<!--    TextView -->
+	<string name="report_producto">Producto</string>
+	<string name="report_codigo">Codigo:</string>
+	<string name="report_descripcion">Descripción:</string>
+	<string name="report_familia">Familia:</string>
+	<string name="report_tipoUbicacion">Tipo Ubicación:</string>
+	<string name="report_ubicacion">Ubicación </string>
+	<string name="report_ubicacionproducto_descripcion_ubicacion">Descripción</string>
+	<string name="report_ubicacionproducto_ubicacion">Ubicación</string>
+	<string name="report_ubicacionproducto_area">Cod.Área</string>
+	<string name="report_ubicacionproducto_descripcion_area">Área</string>
+	<string name="report_ubicacionproducto_rack">Rack</string>
+	<string name="report_ubicacionproducto_percha">Percha</string>
+	<string name="report_ubicacionproducto_nivel">Nivel</string>
+	<string name="report_ubicacionproducto_cantidad">Cantidad</string>
+	<string name="report_ubicacionproducto_novedad">Novedad</string>
+	<string name="report_ubicacionproducto_lote">Lote</string>
+	<string name="report_ubicacionproducto_fechacaducidad">FechaCaducidad</string>
+	<string name="report_ubicacionproducto_bulto">Bulto</string>
+	<string name="report_ubicacionproducto_hind_busqueda">Buscar Producto</string>
+	<string name="report_prompt_spn_ubicacion">Tipo Ubicación</string>
+	<string name="modulo_movimiento_ubicacion_producto">Listado de Ubicaciones</string>
+
+	<string name="report_productoubicacion_ubicacion">Ubicación</string>
+	<string name="report_productoubicacion_producto">Producto</string>
+	<string name="report_productoubicacion_descripcionproducto">Descripción</string>
+	<string name="report_productoubicacion_descripcionfamilia">Familia</string>
+	<string name="report_productoubicacion_cantidad">Cantidad</string>
+	<string name="report_productoubicacion_lote">Lote</string>
+	<string name="report_productoubicacion_fechacaducidad">Caducidad</string>
+	<string name="report_productoubicacion_novedad">Novedad</string>
+	<string name="report_productoubicacion_contenedor">Contenedor</string>
+	<string name="report_productoubicacion_pallet">Pallet</string>
+	<string name="report_productoubicacion_hind_busqueda">Buscar Ubicación</string>
+	<string name="modulo_movimiento_producto_ubicacion">Listado de Productos</string>
+
+
+	<string name="report_detalleContenedor_hind_busqueda">Buscar Contenedor</string>
+	<string name="report_usuario">Usuario</string>
+	<string name="report_documento">Documento</string>
+	<string name="report_consolidado">Consolidado</string>
+	<string name="report_estado">Estado</string>
+	<!--<string name="report_ubicacion">Ubicación</string>-->
+	<string name="report_detalleContenedor_producto">Producto</string>
+	<string name="report_detalleContenedor_descripcion">Descripción</string>
+	<string name="report_detalleContenedor_lote">Lote</string>
+	<string name="report_detalleContenedor_cantidad">Cantidad</string>
+	<string name="modulo_detalleContenedor">Detalle Contenedor</string>
+
+
+	<string name="report_code_titulo">Reportes</string>
+
+	<!--    Reversa   -->
+	<string name="modulo_movimiento_reversa">Reversa</string>
+	<string name="movimiento_reversa_tv_proceso">Proceso:</string>
+	<string name="movimiento_reversa_tv_tipo">TipoDoc:</string>
+	<string name="movimiento_reversa_tv_consolidado">Cons:</string>
+	<string name="movimiento_reversa_tv_documento">Doc:</string>
+	<string name="movimiento_reversa_tv_contenedor">Etiqueta:</string>
+	<!--<string name="movimiento_reversa_tv_documento">Doc:</string>-->
+	<string name="movimiento_reversa_tv_ubicaciones">Ubicación:</string>
+	<string name="movimiento_reversa_tv_muelles">Muelle:</string>
+	<string name="movimiento_reversa_tv_producto">Producto:</string>
+	<string name="movimiento_reversa_tv_lote">Lote:</string>
+	<string name="movimiento_reversa_tv_novedad">Novedad:</string>
+	<string name="movimiento_reversa_tv_caducidad">F.Cad:</string>
+	<string name="movimiento_reversa_tv_motivo">Motivo:</string>
+	<string name="movimiento_reversa_tv_destino">Destino:</string>
+	<string name="movimiento_reversa_tv_sugerido">Sugerido:</string>
+	<string name="movimiento_reversa_tv_procesado">C.Proc:</string>
+	<string name="movimiento_reversa_tv_reversar">Reversar:</string>
+	<string name="movimiento_reversa_tv_descripcion">Descripción:</string>
+	<string name="movimiento_reversa_tv_familia">Familia:</string>
+	<string name="movimiento_reversa_tv_marca">Marca:</string>
+	<string name="movimiento_reversa_tv_tipo_producto">Tipo Producto:</string>
+	<string name="movimiento_reversa_tv_observacion">Observación:</string>
+	<string name="menu_guardar_reversa">Guardar</string>
+	<string name="reversa_alerta_guardar">Verfique todos los datos</string>
+	<string name="movimiento_reversa_titulo">Proceso de Reversas</string>
+	<string name="reversa_cargando_tipo_documento">Cargando Tipos Documento</string>
+	<string name="reversa_cargando_consolidados">Cargando Consolidados</string>
+	<string name="reversa_cargando_documentos">Cargando Documentos</string>
+	<string name="reversa_cargando_novedades">Cargando Novedades</string>
+	<string name="reversa_cargando_ubicaciones">Cargando Ubicaciones</string>
+	<string name="reversa_cargando_documentos_vacio">No existe documentos para reversar</string>
+	<string name="reversa_cargando_consolidados_vacio">No existe consolidados para reversar</string>
+	<string name="reversa_cargando_ubicaciones_vacio">No existe ubicaciones</string>
+	<string name="reversa_cargando_novedades_vacio">No existe novedades</string>
+	<string name="modulo_reversa_productos">Listado de Productos</string>
+	<string name="modulo_reversa_etiqueta">Listado Bulto/Pallet</string>
+	<string name="modulo_reversa_ubicacion">Listado de Ubicación</string>
+	<string name="modulo_reversa_producto_hind_busqueda">Búsqueda Producto</string>
+	<string name="modulo_reversa_etiqueta_hind_busqueda">Búsqueda</string>
+	<string name="modulo_reversa_ubicacion_hind_busqueda">Búsqueda Ubicación</string>
+	<string name="reversa_listado_total">No.items:</string>
+	<string name="modulo_reversa_producto">Listado de Productos</string>
+	<!--<string name="modulo_reversa_ubicacion">Listado Ubicaciones</string>-->
+	<string name="modulo_reversa_etiqueta_tv_codigo">Etiqueta</string>
+	<string name="modulo_reversa_etiqueta_tv_estado">Estado</string>
+	<string name="modulo_reversa_etiqueta_tv_descripcion">Etiqueta</string>
+	<string name="modulo_reversa_etiqueta_incorrecto">Etiqueta incorrecta</string>
+	<string name="modulo_reversa_buscando_cantidad">Buscando cantidad</string>
+	<string name="modulo_reversa_cargando_cantidad">Cargando cantidad</string>
+	<string name="modulo_reversa_cargando_novedad">Cargando novedad</string>
+	<string name="modulo_reversa_code_guardar">Guardando Reversa</string>
+	<string name="modulo_reversa_cargando_contenedores">Cargando etiquetas</string>
+	<string name="reversa_cargando_ubicacion_sugerida">Cargando Sugerencia</string>
+	<string name="reversa_no_existe_sugerida">No existe ubicación sugerencia, verifique producto</string>
+	<string name="reversa_ubicacion_destino_incorrecto">Ubicación Destino incorrecta</string>
+	<string-array name="array_filtro_movimiento_reversa_coordenada">
+		<item>Código</item>
+		<item>Descripción</item>
+	</string-array>
+
+
+
+	<!--    Autorizacion   -->
+	<string name="validar_crendenciales_tv_usuario">Usuario:</string>
+	<string name="validar_crendenciales_tv_contrasena">Contraseña:</string>
+
+
+	<!--   pantalla  informacion movimiento -->
+	<string name="info_tv_lv_observacion">Obs. Doc.:</string>
+	<string name="info_tv_lv_codigo">Código:</string>
+	<string name="info_tv_lv_descripcion">Desc.:</string>
+	<string name="info_tv_lv_familia">Familia:</string>
+	<string name="info_tv_lv_marca">Marca:</string>
+	<string name="info_tv_lv_observacion_detalle">Obs. Det:</string>
+
+
+	<!-- Pantalla Registro barras - -->
+	<string name="registro_barrasIngresadas">Ingresadas</string>
+	<string name="registro_barrasEliminadas">Eliminadas</string>
+	<string name="registro_barras_hind_busqueda">Barra</string>
+	<string name="registro_barras">Barras</string>
+	<string name="registro_code_error_repetido">Error el código alterno pertenece a otro Producto</string>
+	<string name="registro_code_dialog_message_barra_existe_eliminar">Barra ya existe, desea eliminar ?</string>
+	<string name="registro_code_guardando_codigoBarras">Guardando código de barras</string>
+	<string name="registro_code_eliminando_codigoBarras">Guardando código de barras</string>
+	<string name="modulo_detalleBarras">Detalle barras</string>
+
+	<!--   ARMADO-->
+	<string name="armado_btn_contenedor">Contenedor [1]</string>
+	<string name="armado_btn_pallet">Pallet [2]</string>
+	<string name="menu_guardar_armado">Guardar</string>
+
+	<string name="armado_busqueda_tv_tipoDocumento">Tipo Documento</string>
+	<string name="armado_busqueda_tv_impresora">Impresora</string>
+	<string name="armado_hind_busqueda">Buscar</string>
+	<string name="armado_busqueda_btn_buscar">Buscar</string>
+
+
+
+	<string name="armado_general_tv_documento">Documento:</string>
+	<string name="armado_general_tv_ubicacion">Ubicación:</string>
+	<string name="armado_general_tv_pallet">Pallet:</string>
+	<string name="armado_general_tv_contenedor">Contenedor:</string>
+	<string name="armado_general_tv_producto">Producto:</string>
+	<string name="armado_general_tv_lote">Lote:</string>
+	<string name="armado_general_tv_cantidad">Cantidad:</string>
+	<string name="armado_general_tv_descripcion">Descripción:</string>
+	<string name="armado_li_contenedor">Contenedor</string>
+	<string name="armado_li_producto_codigo">Producto</string>
+	<string name="armado_li_producto_descripcion">Descripción</string>
+	<string name="armado_li_producto_lote">Lote</string>
+	<string name="armado_li_producto_cantidad">Cantidad</string>
+	<!--<string name="armado_li_producto_codigo">Producto</string>-->
+	<string name="armado_general_tv_impresora">Impresora:</string>
+	<string name="armado_cargando_fecha_servidor">Cargando Fecha Servidor</string>
+
+
+
+
+	<string name="armado_alerta_guardar">Verfique todos los datos</string>
+	<string name="armado_cargando_producto_unidad">Cargando Unidad Medida</string>
+
+	<!-- Pantalla Indicadores-->
+	<string name="principal_menu_indicadores">Indicadores</string>
+	<string name="modulo_indicadores_name">Indicadores</string>
+	<string name="indicadores_titulo1">Productividad Diaria</string>
+	<string name="indicadores_objetivo">Objetivo:</string>
+	<string name="indicadores_valor">Valor:</string>
+	<string name="indicadores_titulo2">Productividad Mensual</string>
+	<!--    Code Behind -->
+	<string name="indicadores_code_buscar_productividad_diaria">Buscando Indicador Productividad Diaria</string>
+	<string name="indicadores_code_buscar_productividad_mes">Buscando Indicador Productividad Mensual</string>
+</resources>
+

@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinApiRest.MainPage"
+             >
+
+
+    <ScrollView>
+        <StackLayout  Padding="8,8,8,8">
+
+            <Entry x:Name="txtidUsuario" IsVisible="false" />
+            <Label Text="Documento de Identidad" FontAttributes="Bold" TextColor="Black"/>
+            <Entry x:Name="txtcedula" Placeholder="Documento de identidad" />
+            <Label Text="Nombres" FontAttributes="Bold" TextColor="Black"/>
+            <Entry x:Name="txtnombres" Placeholder="Nombres"/>
+            <Label Text="Telefono" FontAttributes="Bold" TextColor="Black"/>
+            <Entry x:Name="txttelefono" Placeholder="Telefono" Keyboard="Numeric"/>
+            <Label Text="Correo" FontAttributes="Bold" TextColor="Black"/>
+            <Entry x:Name="txtcorreo" Placeholder="Correo" Keyboard="Email"/>
+            <Label Text="Ciudad" FontAttributes="Bold" TextColor="Black"/>
+            <Entry x:Name="txtciudad" Placeholder="Ciudad"/>
+
+            <Button Text="Eliminar"  Grid.Row="2"
+                    Margin="5"
+                    BackgroundColor="Green"
+                    TextColor="White"
+                    CornerRadius="10"
+                        x:Name="btnguardar"
+                    Clicked="btnguardar_Clicked"/>
+
+            <Button Text="Modificar"  Grid.Row="2"
+                    Margin="5"
+                    BackgroundColor="Blue"
+                    TextColor="White"
+                    CornerRadius="10"
+                        x:Name="btnmodificar"
+                    Clicked="btnmodificar_Clicked"
+                    IsVisible="false"/>
+
+            <Button Text="Eliminar"  Grid.Row="2"
+                    Margin="5"
+                    BackgroundColor="Red"
+                    TextColor="White"
+                    CornerRadius="10"
+                        x:Name="btneliminar"
+                    Clicked="btneliminar_Clicked"
+                    IsVisible="false"/>
+
+            <Label Text="USUARIOS" FontAttributes="Bold" TextColor="Black" HorizontalTextAlignment="Center" BackgroundColor="CadetBlue"/>
+
+            <ScrollView HorizontalOptions="CenterAndExpand" Orientation="Horizontal" Margin="5">
+                <ListView x:Name="lstUsuarios" ItemSelected="lstUsuarios_ItemSelected" 
+                          BackgroundColor="WhiteSmoke">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Grid Margin="5">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <Label Text="CI" Grid.Row="0" Grid.Column="0" TextColor="Black" FontSize="10"/>
+                                    <Label Text="Nombres" Grid.Row="0" Grid.Column="1" TextColor="Black" FontSize="10"/>
+                                    <Label Text="Telefono" Grid.Row="0" Grid.Column="2" TextColor="Black" FontSize="10"/>
+                                    <Label Text="Correo" Grid.Row="0" Grid.Column="3" TextColor="Black" FontSize="10"/>
+                                    <Label Text="Ciudad" Grid.Row="0" Grid.Column="4" TextColor="Black" FontSize="10"/>
+
+                                    <Label Text="{Binding DocumentoIdentidad}" Grid.Row="1" Grid.Column="0" TextColor="Gray" FontSize="10"/>
+                                    <Label Text="{Binding Nombres}" Grid.Row="1" Grid.Column="1" TextColor="Gray" FontSize="10"/>
+                                    <Label Text="{Binding Telefono}" Grid.Row="1" Grid.Column="2" TextColor="Blue" FontSize="10"/>
+                                    <Label Text="{Binding Correo}" Grid.Row="1" Grid.Column="3" TextColor="Gray" FontSize="10"/>
+                                    <Label Text="{Binding Ciudad}" Grid.Row="1" Grid.Column="4" TextColor="Gray" FontSize="10"/>
+
+                                </Grid>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </ScrollView>
+
+        </StackLayout>
+    </ScrollView>
+
+
+
+</ContentPage>

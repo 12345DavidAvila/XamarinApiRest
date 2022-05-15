@@ -1,0 +1,230 @@
+<resources>
+
+	<!-- Base application theme. -->
+	<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+		<!-- Customize your theme here. -->
+		<item name="colorPrimary">@color/colorPrimary</item>
+		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+		<item name="colorAccent">@color/colorAccent</item>
+
+	</style>
+
+
+	<style name="AppTheme.NoActionBar">
+		<item name="windowActionBar">false</item>
+		<item name="windowNoTitle">true</item>
+	</style>
+
+	<style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+	<style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+	<style name="ActionBar" parent="Theme.AppCompat">
+		<item name="android:background">@color/colorPrimary</item>
+		<item name="android:titleTextStyle">@style/ActionBar.TitleTextStyle</item>
+	</style>
+
+	<style name="ActionBar.TitleTextStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+		<item name="android:textColor">@color/white</item>
+	</style>
+	<style name="MyTheme.Splash" parent ="Theme.AppCompat.Light.NoActionBar">
+		
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:windowFullscreen">true</item>
+		<item name="android:windowContentOverlay">@null</item>
+		<item name="android:windowActionBar">true</item>
+	</style>
+
+
+	<!--<style name="mySpinnerItemStyle" parent="Base.Widget.AppCompat.Spinner">
+    <item name="android:textColor">@color/redligth</item>
+  </style>-->
+	<style name="spinner_style" parent="Base.Widget.AppCompat.Spinner">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		
+		<item name="android:paddingLeft">0dp</item>
+		<item name="android:paddingTop">0dp</item>
+		<item name="android:paddingBottom">0dp</item>
+	</style>
+	<style name="spinner_8puntos">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+	
+		<item name="android:textSize">8dp</item>
+	</style>
+	<style name="spinner_reporte" parent="Base.Widget.AppCompat.Spinner">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textSize">30sp</item>
+	</style>
+	<style name="textview_menu_style" parent="TextAppearance.AppCompat">
+		<item name="android:textColor">@color/colorPrimary</item>
+		<item name="android:textSize">16sp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:letterSpacing">0.08</item>
+		<item name="android:lineSpacingExtra">8sp</item>
+	</style>
+
+	<style name="textview_bold_15_style" parent="TextAppearance.AppCompat">
+		<item name="android:textColor">@color/black</item>
+		<item name="android:textSize">15sp</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+
+	<style name="textview_bold_10_style_red" parent="TextAppearance.AppCompat">
+		<item name="android:textColor">@color/redligth</item>
+		<item name="android:textSize">10sp</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+
+	<style name="textview_bold_16_style" parent="TextAppearance.AppCompat">
+		<item name="android:textColor">@color/black</item>
+		<item name="android:textSize">16sp</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+
+	<style name="textview_bold_18_style" parent="TextAppearance.AppCompat">
+		<item name="android:textColor">@color/black</item>
+		<item name="android:textSize">18sp</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+
+
+	<!--<style name="textview_bold_20_style" parent="TextAppearance.AppCompat">
+    <item name="android:textColor">@color/black</item>
+    <item name="android:textSize">20sp</item>
+    <item name="android:textStyle">bold</item>
+  </style>-->
+
+	<style name="textview_normal_14_style_colorPrimary" parent="TextAppearance.AppCompat">
+		<item name="android:textColor">@color/colorPrimary</item>
+		<item name="android:textSize">14sp</item>
+		<item name="android:textStyle">normal</item>
+	</style>
+
+	<style name="textview_normal_16_style_colorPrimary" parent="TextAppearance.AppCompat">
+		<item name="android:textColor">@color/colorPrimary</item>
+		<item name="android:textSize">16sp</item>
+		<item name="android:textStyle">normal</item>
+	</style>
+
+	<style name="textview_bold_12_style" parent="TextAppearance.AppCompat">
+		<item name="android:textColor">@color/black</item>
+		<item name="android:textSize">12sp</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+
+	<style name="textview_bold_14_style" parent="TextAppearance.AppCompat">
+		<item name="android:textColor">@color/black</item>
+		<item name="android:textSize">14sp</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+
+	<style name="textview_normal_16_style" parent="TextAppearance.AppCompat">
+		<item name="android:textColor">@color/black</item>
+		<item name="android:textSize">16sp</item>
+		<item name="android:textStyle">normal</item>
+	</style>
+
+	<style name="textview_normal_15_style" parent="TextAppearance.AppCompat">
+		<item name="android:textColor">@color/black</item>
+		<item name="android:textSize">15sp</item>
+		<item name="android:textStyle">normal</item>
+	</style>
+
+	<style name="textview_normal_14_style" parent="TextAppearance.AppCompat">
+		<item name="android:textColor">@color/black</item>
+		<item name="android:textSize">14sp</item>
+		<item name="android:textStyle">normal</item>
+	</style>
+	<style name="textview_normal_13_style" parent="TextAppearance.AppCompat">
+		<item name="android:textColor">@color/black</item>
+		<item name="android:textSize">13sp</item>
+		<item name="android:textStyle">normal</item>
+	</style>
+	<style name="textview_normal_12_style" parent="TextAppearance.AppCompat">
+		<item name="android:textColor">@color/black</item>
+		<item name="android:textSize">12sp</item>
+		<item name="android:textStyle">normal</item>
+	</style>
+	<style name="textview_normal_11_style" parent="TextAppearance.AppCompat">
+		<item name="android:textColor">@color/black</item>
+		<item name="android:textSize">11sp</item>
+		<item name="android:textStyle">normal</item>
+	</style>
+	<style name="textview_normal_10_style" parent="TextAppearance.AppCompat">
+		<item name="android:textColor">@color/black</item>
+		<item name="android:textSize">10sp</item>
+		<item name="android:textStyle">normal</item>
+	</style>
+
+	<style name="textview_bold_14_blue_style" parent="TextAppearance.AppCompat">
+		<item name="android:textColor">@color/colorPrimary</item>
+		<item name="android:textSize">14sp</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+
+	<style name="textview_normal_14_blue_style" parent="TextAppearance.AppCompat">
+		<item name="android:textColor">@color/colorPrimary</item>
+		<item name="android:textSize">14sp</item>
+		<item name="android:textStyle">normal</item>
+	</style>
+	<style name="button_calculator">
+		<item name="android:layout_width">0dp</item>
+		<item name="android:layout_height">0dp</item>
+
+		<item name="android:textSize">25dp</item>
+		<item name="android:onClick">ButtonClick</item>
+	</style>
+	<style name="button_calculadora">
+		<item name="android:textSize">20dp</item>
+		<item name="android:layout_height">100dp</item>
+
+	</style>
+
+	<style name="background_calculadora">
+		<item name="android:background">@color/colorPrimary</item>
+	</style>
+	<style name="textview_bold_14_red_style" parent="TextAppearance.AppCompat">
+		<item name="android:textColor">@color/redligth</item>
+		<item name="android:textSize">14sp</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+
+	<style name="numberPicking_skyblue" parent="Theme.AppCompat.Light">
+		<item name="colorPrimary">@color/colorPrimary</item>
+		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+		<item name="android:numberPickerStyle">@style/temaNumberPicker</item>
+		<item name="android:textSize">20sp</item>
+
+	</style>
+	<style name="temaNumberPicker" parent="@android:style/Widget.Material.NumberPicker">
+		<!--<item name="colorControlNormal ">#33691e</item>-->
+		<item name="colorControlNormal">#0887c1</item>
+		<item name="android:background">#b3e5fc</item>
+	</style>
+	<style name="textview_normal_18_style" parent="TextAppearance.AppCompat">
+		<item name="android:textColor">@color/black</item>
+		<item name="android:textSize">16sp</item>
+		<item name="android:textStyle">normal</item>
+	</style>
+	<style name="textview_normal_20_style" parent="TextAppearance.AppCompat">
+		<item name="android:textColor">@color/black</item>
+		<item name="android:textSize">17sp</item>
+		<item name="android:textStyle">normal</item>
+	</style>
+
+	<style name="textview_bold_style" parent="TextAppearance.AppCompat">
+		<item name="android:textColor">@color/colorPrimary</item>
+		<item name="android:textSize">14sp</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+
+	<style name="textview_bold_20_style" parent="TextAppearance.AppCompat">
+		<item name="android:textColor">@color/black</item>
+		<item name="android:textSize">20sp</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+</resources>
